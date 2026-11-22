@@ -1,63 +1,79 @@
 # Dilgith Ramadasan
 
-### Finance Operations | Applied AI & Financial Systems Research
+**Finance Operations · Applied AI · Reproducible Financial Systems Research**
 
-Based in the United Arab Emirates · [GitHub](https://github.com/dilgithvaccant-cmd)
+📍 United Arab Emirates · [Research repositories](https://github.com/dilgithvaccant-cmd?tab=repositories)
 
-I work in group accounting and accounts payable, with practical experience in financial operations, reconciliations, audit documentation, spreadsheet controls, and process improvement. I am exploring how applied AI, data analytics, and reproducible software workflows can improve the reliability, transparency, and efficiency of financial processes.
+> Exploring how transparent, testable software and responsible AI can improve financial data integrity, auditability, and accounting workflows.
 
-> **Research direction:** Bridging finance-domain expertise with reproducible experiments and open-source automation.
+## About
+
+I work in group accounting and accounts payable in the UAE, with experience in payment documentation, reconciliations, spreadsheet controls, audit support, and financial process improvement. I am building an open, reproducible portfolio that connects this domain experience to software engineering and applied research.
+
+**Current focus:** financial data quality, deterministic validation, human-in-the-loop controls, and evaluation of automation in finance.
+
+## Featured research project
+
+### [Financial Data Quality Lab](https://github.com/dilgithvaccant-cmd/Financial-Data-Quality-Lab)
+
+**Status: prototype under review** · [Draft implementation PR](https://github.com/dilgithvaccant-cmd/Financial-Data-Quality-Lab/pull/1)
+
+**Research question:** How effectively can transparent validation rules detect data-quality problems in synthetic accounts-payable transactions?
+
+| Component | Current scope |
+| --- | --- |
+| Dataset | Synthetic invoice records only |
+| Validation | Required identifiers, duplicate invoice keys, date integrity, arithmetic reconciliation |
+| Reproducibility | Python package, tests, documented methodology and GitHub Actions |
+| Evaluation | Labeled benchmarks and precision/recall metrics planned; no published accuracy claim |
+
+**Important:** A working prototype is not equivalent to peer-reviewed research or production validation. See the repository for implementation status and limitations.
 
 ## Research interests
 
-- **AI-assisted accounting:** Human-in-the-loop review, document classification, and audit trails.
-- **Financial data quality:** Validation, reconciliation, exception detection, and data lineage.
-- **Spreadsheet engineering:** Testable models, traceable calculations, and controlled data transformations.
-- **Workflow automation:** Reliable integrations between spreadsheets, business systems, and web applications.
-- **Responsible AI:** Evaluation, privacy, explainability, and verification in finance workflows.
+| Theme | Questions I want to investigate |
+| --- | --- |
+| Financial data quality | Which controls detect duplicate, incomplete, inconsistent or anomalous records? |
+| AI-assisted accounting | Where should human review remain mandatory in document and transaction workflows? |
+| Spreadsheet engineering | How can calculations, transformations and exceptions become testable and traceable? |
+| Reconciliation | How should matching methods be evaluated against labeled financial records? |
+| Responsible automation | How can audit logs, approvals, privacy and reproducibility be preserved? |
 
-## Domain experience
+## Professional domain experience
 
-- Group accounting and accounts payable operations in the UAE
-- Payment documentation, accounting narrations, and audit-support workflows
-- Excel-based reconciliation, tracking, and financial reporting processes
-- Requirements and workflow design for spreadsheet-to-web-application projects
-- Exploration of AI-assisted automation and tools such as n8n
+- Group accounting and accounts payable operations
+- Invoice and payment documentation, accounting narrations and audit-support processes
+- Excel reconciliation, tracking and financial reporting workflows
+- Requirements and workflow design for spreadsheet-to-web-application systems
+- Exploration of AI-assisted workflows and n8n automation
 
 ## Research roadmap
 
-The repositories below are **proposed research projects**, not claims of completed or published research.
+The following are **planned projects**, not completed studies:
 
-| Proposed repository | Research question | Planned deliverable |
-| --- | --- | --- |
-| `financial-data-quality-lab` | How can deterministic checks improve the quality of finance datasets? | Synthetic dataset, validation rules, tests, results |
-| `ap-document-intelligence` | How accurately can document fields be extracted and verified with human review? | Anonymized/synthetic examples, evaluation protocol |
-| `reconciliation-benchmark` | How do different matching rules perform on payment reconciliation tasks? | Reproducible benchmark and error analysis |
-| `audit-ready-excel-framework` | How can spreadsheet workflows be made more testable and auditable? | Sample workbook, controls, documentation |
-| `finance-workflow-automation` | How can automation preserve approvals, exception handling, and audit logs? | Demo workflows with synthetic data |
+- **AP Document Intelligence:** synthetic invoice-field extraction and human verification benchmarks
+- **Reconciliation Benchmark:** evaluation of deterministic and probabilistic transaction matching
+- **Audit-Ready Excel Framework:** testable spreadsheet controls and documented calculations
+- **Finance Workflow Automation:** demonstrable approval, exception and audit-log workflows
 
-## Research principles
+## Methods and learning
 
-1. Publish code and methodology alongside any results.
-2. Use synthetic or properly authorized, anonymized data; never expose employer or customer records.
-3. Separate experiments and hypotheses from validated findings.
-4. Record evaluation criteria, limitations, and reproducibility instructions.
-5. Use human review for consequential financial decisions.
+**Working methods:** structured financial controls, reconciliation, documentation, validation rules and audit trails.
 
-## Current learning and development
+**Technical development:** Python, SQL, TypeScript, automated testing, CI and responsible AI evaluation. These are learning and project-development areas, not claims of formal certifications or proficiency in every tool.
 
-- Python and SQL for financial data analysis
-- TypeScript and web application engineering
-- Automated testing, version control, and CI
-- AI evaluation methods and responsible deployment
+## Research integrity
 
-*These are development interests; this section does not imply proficiency or certifications in every listed technology.*
+1. Use synthetic data or properly authorized, de-identified datasets; never publish confidential employer or customer information.
+2. Publish methods, code, test instructions and limitations alongside any reported results.
+3. Distinguish prototypes, hypotheses and planned work from measured findings.
+4. Report evaluation metrics only after running documented benchmarks.
+5. Keep human oversight for consequential accounting and financial decisions.
 
 ## Collaboration
 
-I welcome constructive discussion about applied AI, financial data integrity, accounting automation, and reproducible software experiments. Open an issue in a relevant public repository to discuss an idea.
+Interested in applied AI for financial operations, transparent data-quality controls or reproducible accounting research? Open an issue in a relevant public repository to discuss a method, test case or collaboration.
 
 ---
 
-**Profile:** [github.com/dilgithvaccant-cmd](https://github.com/dilgithvaccant-cmd)  
-**Status:** Building a public, reproducible applied-research portfolio.
+*Independent applied-research portfolio in development. No academic affiliation, publication record or peer-reviewed status is implied.*
